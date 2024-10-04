@@ -300,34 +300,34 @@ hr {
 /* Color Styles */
 
 .pastel-pink {
-    /* color: #ffc0cb; */
+    color: #ffc0cb;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
 
 
 }
 
 .pastel-blue {
-    /* color: #add8e6; */
+    color: #add8e6;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
 
 }
 
 
 .pastel-green {
-    /* color: #98fb98; */
+    color: #98fb98;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
 
 }
 
 .pastel-yellow {
-    /* color: #ffffb3; */
+    color: #ffffb3;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
 
 }
 
 
 .pastel-lavender {
-    /* color: #e6e6fa; */
+    color: #e6e6fa;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
 }
 
