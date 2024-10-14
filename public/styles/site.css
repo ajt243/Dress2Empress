@@ -629,6 +629,23 @@ textarea:focus {
     border-color: #0056b3;
 }
 
+input#password {
+    width: 175px;
+    max-height: 33.5px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button[name="login"] {
+    font-family: "Comfortaa", sans-serif;
+}
+
+button[name="login"]:hover {
+    background-color: #ffc0cb;
+}
 
 .form_tag div {
     padding-left: 20px;
