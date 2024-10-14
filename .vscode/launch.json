@@ -1,15 +1,23 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "name": "PHP Development Server",
+            "type": "php",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+            "runtimeArgs": [
+                "-c", "${workspaceRoot}/.devcontainer/php.ini",
+                "-S",
+                "127.0.0.1:8080",
+                "router.php"
+            ],
+            "cwd": "${workspaceRoot}",
+            "port": 9000,
+            "serverReadyAction": {
+                "pattern": "Development Server \\(http://127.0.0.1:([0-9]+)\\) started",
+                "uriFormat": "http://127.0.0.1:%s",
+                "action": "openExternally"
+            }
         }
     ]
 }
